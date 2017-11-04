@@ -1,0 +1,9 @@
+---
+layout: default
+nome: Fioretto
+site: http://fioretto.com.br/
+img: assets/images/portfolio/fioretto.jpg
+recursos: HTML5, CSS3, JS, PHP, Responsive
+---
+
+Fioretto

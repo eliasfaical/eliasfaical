@@ -1,0 +1,9 @@
+---
+layout: default
+nome: Antonio Nogueira
+site: http://antonionog.com/
+img: assets/images/portfolio/antonio.jpg
+recursos: HTML5, CSS3, JS, PHP, Wordpress, Responsive
+---
+
+Antonio Nogueira

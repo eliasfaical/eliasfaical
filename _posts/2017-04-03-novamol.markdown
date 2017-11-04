@@ -1,0 +1,9 @@
+---
+layout: default
+nome: Novamoll
+site: http://novamol.com.br/
+img: assets/images/portfolio/novamol.jpg
+recursos: HTML5, CSS3, JS, PHP, Responsive
+---
+
+Novamol

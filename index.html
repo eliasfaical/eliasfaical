@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<section class="home" id="home">
+  <div class="content-home">
+    <h1><img src="assets/images/logo_elias.svg" width="57" height="100" alt="Elias Faiçal - Developer"></h1>
+    <h2>Front-end inteligente</h2>
+    <p>Sites leves e semânticos com organização e dinâmica.</p>
+    <a class="btn" href="#sobre-min" title="Saiba mais">Saiba mais</a>
+  </div>
+</section>
+
+<section class="sobre-mim" id="sobre-min">
+  <div class="content-sobre">
+    <h3>Sobre mim</h3>
+    <p>Graduado no curso de Tecnologia em Análise e Desenvolvimento de Sistemas pela Faculdade Católica Salesiana do Espírito Santo. Apaixonado pelo que faço, atualmente desenvolvo projetos Web usando diversas tecnologias, como HTML5, CSS3, SASS, LESS, Stylus, jQuery/JS, Bootstrap, Design Responsivo, Gulp, Wordpress, PHP, entre outras tecnologias.</p>
+  </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+  <h3>Portfólio</h3>
+  <p>Alguns projetos que já desenvolvi.</p>
+
+  <ul class="list-jobs">
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.site }}" title="{{ post.nome }}" target="_blank">
+          <img src="{{ post.img }}" class="img-responsive" alt="{{ post.nome }}">
+          <span class="info-job">
+            <span class="box--info-job">
+              <span class="nome-job">{{ post.nome }}</span>
+              <span class="tecnologia-job">{{ post.recursos }}</span>
+            </span>
+          </span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="contato">
+  <div class="content-contato" id="contato">
+    <h3>Vamos conversar!</h3>
+    <p>Entre em contato e deixe uma mensagem, entrarei em contato o quanto antes.</p>
+
+    <ul class="social-icons">
+      <li><a href="https://twitter.com/eliasfaical" target="blank" title="Twitter" class="fa fa-twitter"></a></li>
+      <li><a href="https://facebook.com/eliasfaical" target="blank" title="Facebook" class="fa fa-facebook"></a></li>
+      <li><a href="http://www.linkedin.com/in/eliasfaical" target="blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+      <li><a href="https://github.com/eliasfaical" target="blank" title="GitHub" class="fa fa-github"></a></li>
+    </ul>
+
+    <div class="contato-fone-email">
+      <p><a href="tel:2798816-3812" title="27 9 8816-3812">27 9 8816-3812</a></p>
+      <p><a class="email" href="mailto:eliasfaical@gmail.com" title="eliasfaical@gmail.com">eliasfaical@gmail.com</a></p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,487 @@
+// Page Profile
+/* 
+.page-profile
+  .content-main
+    .sidebar
+    .content
+    .customer-container
+    .list-cooments
+    .video-week
+    .documents
+*/
+
+/* -------------------------------------------------------- */
+/* Content Page - PROFILE
+/* -------------------------------------------------------- */
+.page-profile
+	// background-size cover
+	background-position center top
+	background-repeat no-repeat
+	background-image url('../images/background-profile.jpg')
+	
+	.container
+		center(1770px)
+		padding-left 20px
+		padding-right 20px
+	
+	/* -------------------------------------------------------- */
+	/* Body - PROFILE
+	/* -------------------------------------------------------- */
+	.content-main
+		margin 150px 0
+		
+		.container
+			center(1280px)
+			padding-left 20px
+			padding-right 20px
+		
+		p
+			color $white
+			font-size 1em
+			line-height 1.3em
+			font-proxima-nova-regular()
+	
+	
+	/* -------------------------------------------------------- */
+	/* Sidebar global - PROFILE
+	/* -------------------------------------------------------- */
+	.sidebar
+		column(1/3)
+		
+		h3
+			color $white
+			font-size 1.8em
+			padding-bottom 7px
+			margin 0 auto 30px
+			display table
+			text-align center
+			border-bottom 1px solid $white
+			font-proxima-nova-regular()
+		
+		.box-pay
+			max-width 250px
+			margin 0 auto
+			
+			a.btn-price
+				border-radius 2px
+				border 2px solid $yellow
+				color $yellow
+				display block
+				padding 15px
+				text-align center
+				margin 50px auto 10px
+				text-transform uppercase
+				font-size 1em
+				font-proxima-nova-bold()
+				transition-all()
+				
+				&:hover
+					background $yellow
+					color $black
+			
+			.download
+				color $white
+				width 100%
+				color $yellow
+				padding 10px 0
+				font-size 1.2em
+				
+				span
+					width 46px
+					height 52px
+					margin-right 10px
+					display inline-block
+					vertical-align bottom
+					background url('../images/sprite.png') no-repeat left -151px
+	
+	
+	/* -------------------------------------------------------- */
+	/* Content global - PROFILE
+	/* -------------------------------------------------------- */
+	.content
+		column(2/3)
+		
+		.content-nav
+			margin 75px 0 20px
+			
+			ul
+				padding 0
+				list-style-type none
+			li
+				font-size 1em
+				margin-right 40px
+				display inline-block
+				font-proxima-nova-semibold()
+				
+				&:last-child
+					margin-right 0
+					
+			a
+				color $white
+				display block
+				font-size 1.2em
+				margin-bottom 10px
+				padding-bottom 3px
+				border-bottom 1px solid transparent
+				text-transform uppercase
+				transition-all()
+				
+				&.active-item,
+				&:hover
+					color $yellow
+					border-bottom 1px solid $yellow
+		
+
+	/* -------------------------------------------------------- */
+	/* Information
+	/* -------------------------------------------------------- */
+	.box-information
+		ul
+			padding-left 20px
+			margin-bottom 1.2em
+			list-style-type disc
+			
+			li
+				color $white
+				
+		.box-video
+			p
+				margin 80px 0 20px
+				color $yellow
+				text-transform uppercase
+	
+
+	/* -------------------------------------------------------- */
+	/* Reviews
+	/* -------------------------------------------------------- */
+	.customer-container
+		color $white
+		
+		h5, h6
+			display block
+			margin-bottom 10px
+			font-size 1.1em
+			font-proxima-nova-semibold()
+		
+		.title--revies
+			h6
+				display inline-block
+			
+			i.fa
+				color $yellow
+				margin-right 5px
+				font-size 1.2em
+		
+		// Ratings
+		.customer-ratings
+			margin-bottom 40px
+			
+			.box-ratings
+				cf()
+				
+				.span-1
+					column(1/2)
+				
+				.item-customers
+					&:first-child
+						margin-top 20px
+
+					i.fa
+						color $yellow
+						margin-left 5px
+					span
+						width 110px
+						text-align right
+						font-size .9em
+						display inline-block
+						font-proxima-nova-regular()
+					
+					.bar
+						height 5px
+						width 45%
+						margin 0 2px
+						vertical-align middle
+						display inline-block
+						border 1px solid $white
+						
+						&.bar-5
+							width 37%
+						&.bar-4
+							width 43%
+						&.bar-3
+							width 49%
+						&.bar-2
+							width 55%
+						&.bar-1
+							width 61%
+				
+				.title--revies
+					margin 15px 0
+					
+					h6
+						width 90px
+						font-size 1em
+						vertical-align middle
+						font-proxima-nova-regular()
+		
+		// Reviews
+		.customer-reviews
+			margin-top 40px
+			
+			.link-review
+				color $white
+				display table
+				padding-bottom 3px
+				margin 20px 0 35px
+				border-bottom 2px solid $yellow
+				font-proxima-nova-semibold()
+				
+				&:hover
+					color $yellow
+
+			.list-reviews
+				li
+					margin-bottom 40px
+					padding-bottom 25px
+					border-bottom 1px solid #6e6e79
+					
+					span, p
+						display block
+						margin-bottom 7px
+						font-proxima-nova-regular()
+					
+					.title--revies
+						h6
+							margin-right 10px
+
+
+	/* -------------------------------------------------------- */
+	/* Profile digital
+	/* -------------------------------------------------------- */
+	.list-comments
+		cf()
+		color $white
+		
+		.group-form
+			cf()
+			margin 20px 0 30px
+			position relative
+			
+			a
+				color $white
+				transition-all()
+				
+				&:hover
+					color $yellow
+				
+			i.fa
+				right 15px
+				top 10px
+				position absolute
+			
+			.form-control
+				width 100%
+				padding 10px
+				background none
+				border 1px solid #ccc
+			
+			button
+				float right
+				border none
+				color $white
+				cursor pointer
+				background none
+				transition-all()
+				font-proxima-nova-bold()
+				
+				&:hover
+					color $yellow
+		
+		// item comment
+		.item-comment
+			cf()
+			margin-bottom 40px
+			
+			.container
+				padding 0
+			
+			.span-pic
+				column(1/12, gutter: 2)
+				
+				img
+					border-radius 50%
+			
+			.span-comment
+				column(11/12)
+				
+				p
+					margin-bottom 15px
+				
+				a
+					color $white
+					display table
+					font-size .9em
+					line-height 1.2em
+					font-proxima-nova-bold()
+					
+					&:hover
+						text-decoration underline
+				
+				.btn-view-replay,
+				.btn-hide-replay
+					color $yellow-dark
+					font-proxima-nova-regular()
+				
+				span
+					line-height 1.4em
+					display block
+					
+					&.name-comment
+						margin-top 5px
+						font-proxima-nova-bold()
+					
+					&.date-comment
+						font-size .8em
+						margin-bottom 15px
+						font-proxima-nova-semibold()
+			
+			.item--replay-comment
+				cf()
+				margin 30px 0 30px 70px
+				
+				span.name-comment
+					display table
+					padding 1px 3px
+					margin-bottom 3px
+					background $yellow-dark
+
+	
+	/* -------------------------------------------------------- */
+	/* Profile digital
+	/* -------------------------------------------------------- */
+	.video-week
+		padding 15px
+		margin 40px 0 0
+		
+		.container
+			background #272636
+		
+		.nav-week
+			margin-top 20px
+			
+			a
+				color $white
+				font-size 1.2em
+				display table
+				margin-bottom 20px
+				text-transform uppercase
+				font-proxima-nova-bold()
+			
+			span
+				width 52px
+				height 55px
+				margin-right 10px
+				display inline-block
+				vertical-align middle
+				background url('../images/sprite.png') no-repeat -67px -147px
+		
+		.btn
+			color $yellow
+			display table
+			padding 10px 50px
+			margin-bottom 30px
+			background none
+			text-align center
+			border 2px solid $white
+			
+			&:hover
+				color $black
+				background $yellow
+				border 2px solid $yellow
+		
+		ul
+			cf()
+			padding-bottom 20px
+
+		li
+			column(1/4)
+			overflow hidden
+		
+		a
+			color $white
+			display block
+			position relative
+			
+			&:hover
+				strong
+					color $yellow
+					transition-all()
+				
+				.demo-gallery-poster
+					margin-top -45px
+					opacity 1
+					transition-all()
+			
+			strong
+				display block
+				margin 15px 0 30px
+			
+			.demo-gallery-poster
+				top 50%
+				left 50%
+				margin-top -10px
+				margin-left -25px
+				position absolute
+				opacity 0
+	
+
+	/* -------------------------------------------------------- */
+	/* Documents
+	/* -------------------------------------------------------- */
+	.box-documents
+		
+		i.fa
+			font-size 2em
+
+		.table
+			width 100%
+			max-width 100%
+			margin-bottom 20px
+			font-size .9em
+			font-proxima-nova-semibold()
+			
+			thead
+				i.fa-file-text-o
+					margin 0 50px 10px
+
+			tbody
+				tr
+					&:hover
+						transition-all()
+						background-color rgba(234, 202, 27, 0.5)
+						
+						a
+							color $white
+						
+			th, td
+				color $white
+				padding 10px 8px
+				line-height 1.42857143
+				vertical-align middle
+
+			th
+				text-align left
+				border-top 0
+				border-bottom 1px solid #ccc
+			td
+				border-top 1px solid #ccc
+			
+			a
+				color #6c6a71
+				display table
+				padding-bottom 2px
+				border-bottom 1px solid transparent
+				
+				&:hover
+					border-bottom 1px solid $white
+

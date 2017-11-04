@@ -1,0 +1,135 @@
+*, 
+*:after,
+*:before 
+	box-sizing border-box
+	-moz-box-sizing border-box
+
+sans-serif-font()
+	font-family 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+
+serif-font()
+	font-family 'Merriweather', 'Helvetica Neue', Arial, sans-serif
+	
+
+/* `Image responsive
+----------------------------------------------------------------------------- */
+img-responsive($display = block)
+	display $display
+	max-width 100% // Part 1 Set a maximum relative to the parent
+	height auto
+
+.img-responsive
+	img-responsive()
+
+
+/* `Transition
+----------------------------------------------------------------------------- */
+transition-all()
+	-webkit-transition all 0.35s ease-in-out
+	-moz-transition all 0.35s ease-in-out
+	transition all 0.35s ease-in-out
+
+
+/* `background cover
+----------------------------------------------------------------------------- */
+background-cover()
+	-webkit-background-size cover
+	-moz-background-size cover
+	background-size cover
+	-o-background-size cover
+
+
+/* `btn
+----------------------------------------------------------------------------- */
+.btn
+	display table
+	background #F05F40
+	color #fff
+	margin 0 auto
+	border-radius 300px
+	padding 15px 30px
+	font-size .8em
+	font-weight 800
+	text-transform uppercase
+	sans-serif-font()
+	transition-all()
+	
+	&:hover
+		background #ee4b28
+
+
+/* `Input Form
+----------------------------------------------------------------------------- */
+.form-control
+	display block
+	border none
+	width 100%
+	color $white
+	margin 0 0 15px
+	padding 10px 10px
+	background #535252
+
+// Placeholder
+::-webkit-input-placeholder
+	color $white
+	font-size .8em
+::-moz-placeholder
+	color $white
+	font-size .8em
+:-ms-input-placeholder
+	color $white
+	font-size .8em
+:-moz-placeholder
+	color $white
+	font-size .8em
+
+
+/* `Body
+----------------------------------------------------------------------------- */
+body
+	width 100%
+	font-size 100%
+	background #fff
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale
+	
+container-fluid()
+	center(100%)
+	padding-left 20px
+	padding-right 20px
+	margin-right auto
+	margin-left auto
+
+
+/* `Typograf
+----------------------------------------------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+	sans-serif-font()
+
+p
+	font-size 20px
+	line-height 1.5
+	margin-bottom 20px
+	serif-font()
+
+
+
+/* `My reset
+----------------------------------------------------------------------------- */
+a
+	text-decoration none
+
+strong
+	font-weight 700
+
+blockquote,
+dl,
+ol,
+ul
+	margin 0
+	padding 0

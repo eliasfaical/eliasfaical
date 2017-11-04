@@ -1,0 +1,64 @@
+/* HEADER
+------------------------------------------------------------------------ */
+.header-nav
+	top 0
+	left 0
+	right 0
+	width 100%
+	z-index 1030
+	padding 13px 0
+	position fixed
+	border-bottom 1px solid rgba(255,255,255,.3)
+	transition-all()
+
+	.site-header
+		container-fluid()
+		
+		.site-title
+			column(1/3)
+			font-weight 800
+			text-transform uppercase
+			color rgba(255,255,255,.7)
+			sans-serif-font()
+		
+		.site-nav
+			column(2/3)
+			text-align right
+			
+			li
+				display inline-block
+				sans-serif-font()
+			
+			a
+				font-size .7em
+				font-weight 700
+				margin-right 20px
+				text-transform uppercase
+				color rgba(255,255,255,.7)
+				transition-all()
+				
+				&:hover
+					color #fff
+
+.sticky
+	background #fff
+	border-bottom 1px solid #ccc
+	
+	.site-header
+		.site-title
+			color #ee4b28
+		.site-nav
+			a
+				color #000
+				
+				&:hover
+					color #ee4b28
+					
+
+
+
+
+
+
+
+

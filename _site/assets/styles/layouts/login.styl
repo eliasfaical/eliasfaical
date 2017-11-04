@@ -1,0 +1,119 @@
+/* -------------------------------------------------------- */
+/* Login
+/* -------------------------------------------------------- */
+.login
+	height 100vh
+	min-height 100%
+	position relative
+	background $black
+	position relative
+	
+	.footer-profile
+		position absolute
+		bottom 0
+		width 100%
+	
+	.content-main
+		margin 0
+		
+		h2
+			color $white
+			margin 0 0 50px
+			font-size 1.8em
+			text-align center
+			text-transform uppercase
+		
+		p.have-account
+			color $white
+			font-size .9em
+			margin-top 100px
+			text-align center
+			
+			a
+				color $white
+				padding-bottom 1px
+				border-bottom 1px solid $white
+				text-transform uppercase
+				font-proxima-nova-bold()
+				
+				&:hover
+					color $yellow-dark
+					border-bottom 1px solid $yellow-dark
+		
+		.box-login
+			position absolute
+			top 50%
+			left 50%
+			margin-left -350px
+			margin-top -202px
+			
+		.container
+			width 700px
+		
+		.span-1
+			column(1/2, gutter: 4)
+			
+			&:first-child
+				padding-right 25px
+				border-right 1px solid $white
+		
+		.form
+			cf()
+
+		.form-control
+			border 1px solid #535252
+			background #212121
+		
+		.form-checkbox
+			display inline-block
+		
+		label
+			margin-top 15px
+			display inline-block
+			color $white
+			font-size .7em
+		
+		.forgot-pw
+			color $white
+			font-size .7em
+			float right
+			margin-top 15px
+			display inline-block
+			
+			&:hover
+				color $yellow-dark
+
+		.btn
+			width 100%
+			color $white
+			padding 10px 50px
+			
+			&.btn-gray
+				background #535252
+				text-transform capitalize
+				
+				&:hover
+					background $yellow-dark
+
+			&.btn-yellow
+				background #9d9500
+				margin 62px 0
+				
+				&:hover
+					background $yellow-dark
+
+
+.forgot-password
+	.content-main
+		.span-1
+			&:first-child
+				width 100%
+				border none
+				text-align center
+		
+		form
+			center(500px)
+		
+		label
+			font-size 1em
+			margin-bottom 20px
