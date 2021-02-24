@@ -1,7 +1,7 @@
 # Elias Faiçal
 
 ## Olá pessoal 👋
-Sou desenvolvedor front-end a mais de 10 anos, atuao com html, css, js, php, wordpress e atualmente em busca de conhecimentos com React, React Native, Next.js e Node :computer:
+Sou desenvolvedor front-end a mais de 10 anos, atuo com html, css, js, php, wordpress e atualmente em busca de conhecimentos com React, React Native, Next.js e Node :computer:
 
 ### Sou um desenvolvedor freelancer
 - `Minha stack: Html, CSS, JS, PHP e Wordpress`
