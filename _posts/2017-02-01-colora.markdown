@@ -1,9 +1,0 @@
----
-layout: default
-nome: Colora
-site: http://colora.com.br/
-img: assets/images/portfolio/colora.jpg
-recursos: HTML5, CSS3, JS, PHP, Wordpress
----
-
-Colora

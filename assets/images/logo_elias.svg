@@ -1,7 +1,0 @@
-<?xml version="1.0"?> 
-	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57" height="100">
-	<rect x="0" y="10" width="17" height="70" fill="#FFF" />
-	<rect x="0" y="10" width="55" height="17" fill="#FFF" />
-	<rect x="0" y="44" width="40" height="17" fill="#FFF" />
-	<rect x="17" y="80" width="38" height="17" fill="#7dcbbe" />
-</svg>

@@ -1,9 +1,0 @@
----
-layout: default
-nome: Big Beach
-site: http://bigbeach.com.br/
-img: assets/images/portfolio/bigbeach.jpg
-recursos: HTML5, CSS3, JS, PHP, Wordpress
----
-
-Big Beach

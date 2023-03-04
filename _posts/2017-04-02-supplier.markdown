@@ -1,9 +1,0 @@
----
-layout: default
-nome: SerraPark Log
-site: http://suppliertrading.com.br/
-img: assets/images/portfolio/supplier.jpg
-recursos: HTML5, CSS3, JS, PHP, Responsive
----
-
-SerraPark Log
