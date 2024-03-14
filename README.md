@@ -1,9 +1,11 @@
 # Elias Faiçal
 
 ## Hello guys 👋
-Sou um desenvolvedor Front-end Web & Mobile UI/UX.
 
-### Minha stack
+I'm a Full Stack developer and fun!
+
+### My stack =]
+
 - `Minha stack: Html, CSS, JS, PHP, React, React Native`
 - [LinkedIn](https://www.linkedin.com/in/eliasfaical/)
 - [eliasfaical@gmail.com](mailto:eliasfaical@gmail.com)
